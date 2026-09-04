@@ -4,6 +4,7 @@
 
 2025 : 
     Full verilog all the weeks both inlab + outlab in full exam format 
+    all the lab assignemtns also full
 
 2024 : 
     We have tuts and make chatgpt make the codes in question format in that environment
