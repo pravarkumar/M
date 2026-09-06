@@ -1,8 +1,5 @@
 1) CS 228 : Ps 4 finish + Ps 5 finish + Do at least 3 assignments stated + see DPLL and CDCL for any theory
 
-3) CS 231 : Assembly last class fully theory finish + full clarity with recursion with practice + see inlab 
-
-
 BS PYQ + BS inlab + BS paper
 
 Heap PYQ 
