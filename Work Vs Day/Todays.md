@@ -12,6 +12,8 @@
 6) CS 215 : Finish the random number generator part then Sheldon Ross full of every chapter coming in midsem
 
 
+CS 230 > CS 293 > CS 228 > CS 215 > CS 231 > CS 213 
+
 
 
 
