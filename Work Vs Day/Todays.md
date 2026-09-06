@@ -2,9 +2,11 @@
 
 3) CS 231 : Assembly last class fully theory finish + full clarity with recursion with practice + see inlab 
 
-4) CS 213 : BST theory finish first 
 
-5) CS 293 : Leetcode + PYQ ( divide and conquere + heap + binary search tree)
+BS PYQ + BS inlab + BS paper
+
+Heap PYQ 
+
 
 6) CS 215 : Finish the random number generator part then Sheldon Ross full of every chapter coming in midsem
 
