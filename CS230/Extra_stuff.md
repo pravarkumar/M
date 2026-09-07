@@ -5,3 +5,8 @@
 
 
 Learn this theory after doing the imp things first.
+
+
+<img width="785" height="434" alt="Screenshot 2026-09-07 at 8 56 55 PM" src="https://github.com/user-attachments/assets/b9dec60e-9ba3-4bf6-9f6c-a52c2e80e888" />
+
+
