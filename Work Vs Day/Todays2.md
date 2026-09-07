@@ -2,7 +2,7 @@
 
 CS 230 : 2025 tut3 + 2024 tut 1 + 2024 tut 2 + 2023 PS 3 
 
-CS 228 : PS 5 full,2025 tut 3->4 + ps1+ps2 see  
+CS 228 : PS 5 full,2025 finalize tut 1->4  and ps1 + ps2 
 
 CS 213: B(1+S)T full theory finished + Heap PYQ + Lab done + Leetcode if time for Heap then if time then bst and then bt 
 
