@@ -48,3 +48,33 @@ hold back on that me swear togod me not hold back this is it we lock in.
 
 
 
+The situation : Its a do or die situation we have to win there is no other way out 
+
+-> The next hurdle is Midsem we overcome this 
+
+Till now the sem is going great we have to keep moving forward like this only just catch up on CS 231 otherwise everythign is going very good .
+
+The next major target is midsem .
+
+The status :
+
+
+
+CS 228: Full theory done problem solving left 
+
+
+CS 230: We need completely finish ISA there is still some unclarity and also need good question set from somewhere also see           the midsem quest what went wrong  and how to correct it.
+
+
+CS 213: Everything is going great just that we need to finish the O(1) thing which was done in BST otherwise we prepared we         need to practice questions for Heap also 
+
+
+CS 293: Everything is going great just that we need to finish the O(1) thing which was done in BST otherwise we prepared we         need to practice questions for Heap also
+
+CS 215: Everything is going great we need to start the problem solving now aggressively there is not time left 
+
+
+We basically need long problem solving sessions and also final mocks before the midsems 
+
+
+
