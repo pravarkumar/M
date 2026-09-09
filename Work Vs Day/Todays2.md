@@ -1,4 +1,4 @@
-CS 228 : Ps 5 + Piazza + pre midsem problem + Huth and Ryan full chapter 1 back quests
+CS 228 : Piazza + pre midsem problem + Huth and Ryan full chapter 1 back quests
 
 CS 231 : Previous class theory + just see what will be done in next class 
 
