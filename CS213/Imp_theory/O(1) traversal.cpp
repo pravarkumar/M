@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 struct node{
     int val;
@@ -22,6 +23,7 @@ struct state{
                 if(curr->left){
                     curr=curr->left;
                     from=PARENT;
+                    return;
                 }
                 else{
                     from=LEFT;
@@ -33,6 +35,7 @@ struct state{
                 if(curr->right){
                     curr=curr->right;
                     from=PARENT;
+                    return;
                 }
                 else{
                     from=RIGHT;
@@ -49,7 +52,47 @@ struct state{
                     }
                 }
                 curr=curr->parent;
+                return;
         }
-        return;
     }
 };
+
+
+void inorder_traversal(node* root){
+    state s;
+    s.curr=root;
+    s.from=PARENT;
+    for(s;s.curr;s.step()){
+        if(s.from==LEFT){
+            cout<<s.curr->val<<' ';
+        }
+    }
+    return;
+}
+
+
+void preorder_traversal(node* root){
+    state s;
+    s.curr=root;
+    s.from=PARENT;
+    for(s;s.curr;s.step()){
+        if(s.from==PARENT){
+            cout<<s.curr->val<<' ';
+        }
+    }
+    return;
+}
+
+
+void postorder_traversal(node* root){
+    state s;
+    s.curr=root;
+    s.from=PARENT;
+    for(s;s.curr;s.step()){
+        if(s.from==RIGHT){
+            cout<<s.curr->val<<' ';
+        }
+    }
+    return;
+}
+
