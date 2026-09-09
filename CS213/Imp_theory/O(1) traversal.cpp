@@ -96,3 +96,61 @@ void postorder_traversal(node* root){
     return;
 }
 
+node* next_preorder(node* current){
+    state s={current,PARENT};
+    if(!current){
+        //this is just absurd like its not even a node how can I print the next one 
+        return nullptr;
+    }
+    
+
+    //wait hold up like why we looping wont the ans be just the left kid and if doesnt exist then the 
+    //ans will be the right kid ohh we get it 
+    //what if neither of them exist we may require to go a lot of levels above before printing 
+    s.step();
+
+    while(s.curr&&s.from!=PARENT){
+        s.step();
+    }
+
+    //this is te next guy to be printed 
+
+    return s.curr;
+}
+
+
+node* next_postorder(node* current){
+    state s={current,RIGHT};
+    if(!current){
+        //this is just absurd like its not even a node how can I print the next one 
+        return nullptr;
+    }
+    
+    s.step();
+    
+    while(s.curr&&s.from!=RIGHT){
+        s.step();
+    }
+
+    //this is te next guy to be printed 
+
+    return s.curr;
+}
+
+node* next_inorder(node* current){
+    state s={current,LEFT};
+    if(!current){
+        //this is just absurd like its not even a node how can I print the next one 
+        return nullptr;
+    }
+    
+    s.step();
+    
+    while(s.curr&&s.from!=LEFT){
+        s.step();
+    }
+
+    //this is te next guy to be printed 
+
+    return s.curr;
+}
