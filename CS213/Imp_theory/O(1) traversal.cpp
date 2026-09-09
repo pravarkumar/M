@@ -154,3 +154,108 @@ node* next_inorder(node* current){
 
     return s.curr;
 }
+
+
+//is there an even better way to do this like what if we want to reduce 
+//the large no of calls to the step function this not helping the non recursion part much 
+//we need to do soemhting about this 
+
+//Imp Observation :
+//remeber when i said what will we do if there is no left and no right child then its a problem so we used th eloop
+//we actually would had come from node and like:
+//if its the inorder case f the right child exists then grat we can just print the most left guy of the right subtree yusigna simple while loop
+//on the other hand if right does not exist then we need to backtrack where we came from we need to keep goign t parent till we get 
+//the situation that we were from left subtree then we can just print the guy who we are at otherwise great if we were from right subtree keep going up 
+
+node* first_inoder(node* curr){
+    while(curr->left){
+        curr=curr->left;
+    }
+    return curr;
+}
+
+
+node* next_up(node* curr){
+    while(curr->parent&&curr->parent->right==curr){
+        curr=curr->parent;
+    }
+    return curr->parent;
+}
+
+node* inorder_next(node* curr){
+    if(!curr){
+        return nullptr;
+    }
+
+    if(curr->right){
+        return first_inoder(curr->right);
+    }
+    else{
+        return next_up(curr);
+    }
+
+}
+
+
+
+node* preorder_next(node* curr){
+    if(!curr){
+        return nullptr;
+    }
+
+    if(curr->left){
+        return curr->left;
+    }
+
+    if(curr->right){
+        return curr->right;
+    }
+
+    while(curr->parent){
+        if(curr == curr->parent->left && curr->parent->right){
+            return curr->parent->right;
+        }
+        curr = curr->parent;
+    }
+
+    return nullptr;
+}
+
+
+
+
+
+node* first_postorder(node* curr){
+    while(curr->left || curr->right){
+        if(curr->left){
+            curr = curr->left;
+        }
+        else{
+            curr = curr->right;
+        }
+    }
+    return curr;
+}
+
+
+node* postorder_next(node* curr){
+    if(!curr){
+        return nullptr;
+    }
+
+    while(curr->parent){
+        if(curr->parent&&curr->parent->right==curr){
+            return curr->parent;
+        }
+        if(curr->parent&&curr->parent->left==curr){
+            if(curr->parent->right){
+                return first_postorder(curr->parent->right);
+            }
+            return curr->parent;
+        }
+        curr=curr->parent;
+    }
+    return nullptr;
+}
+
+
