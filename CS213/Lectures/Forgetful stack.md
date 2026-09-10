@@ -1,5 +1,10 @@
 <img width="664" height="108" alt="Screenshot 2026-09-10 at 8 28 59 PM" src="https://github.com/user-attachments/assets/5d26e6c4-10af-484f-a714-b8f25c0043c8" />
 
+Stack size can be any of N+1 values (0 through N), but the gap between
+top and bot can be only one of N values (0 through N-1)
+• Will use a flag to distinguish between two cases (zero or one item)
+
+
 # write the capacity as a global variable if its a constant as otherwise array wont get size it will get error if the 
 capacity is declared inside the struct itself
 
