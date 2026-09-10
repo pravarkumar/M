@@ -30,6 +30,8 @@ Heap as an array:
 
 A[0] is root. Children of A[i] are A[2i+1] and A[2i+2] (right/both possibly leaves)
 
+<img width="1206" height="660" alt="Screenshot 2026-09-10 at 9 24 38 PM" src="https://github.com/user-attachments/assets/9204dff3-621a-4b47-b7b7-ce8675ca449d" />
+
 
 
 
