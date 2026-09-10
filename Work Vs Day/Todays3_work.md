@@ -8,3 +8,4 @@ CS 230: Finish the rest of the theory then tutorial (tut finish + theory finish)
 
 CS 231: Outlab full of the past week + past week revise + nex tlab see full theory finish + practice problems ( V IMP)
 
+CS 231 > CS 213 > CS 230 > CS 228 > CS 215 
