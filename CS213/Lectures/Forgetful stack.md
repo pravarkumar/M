@@ -65,3 +65,9 @@ struct Forgetful_Stack{
         
     }
 };
+
+
+case 1 ) top==bottom and we have 0 elemnts -> is_empty=false;
+case 2 ) top==bottom and we have 1 element -> is_empty=true;
+case 3 ) top==bottom and we have n elements -> is_empty=false (we will force bot also to move forward so technically the situation of top==bottom was about to arise but never really arises)
+
