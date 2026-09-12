@@ -39,6 +39,9 @@ FOr the love of AW :
 <img width="351" height="337" alt="Screenshot 2026-09-05 at 10 04 54 PM" src="https://github.com/user-attachments/assets/885312e3-dc04-4714-9015-f8c4a815a075" />
 
 
+https://www.youtube.com/watch?v=1rHLkhOHq7c&t=188s
+
+
 Evolve beco,e better than anythign you have ever seen bofre do somethignno one has ever seen the bring th kind of madness to the feild which has never been seen before this is it 
 the finale
 
