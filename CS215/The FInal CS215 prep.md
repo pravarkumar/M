@@ -1,7 +1,5 @@
       Take screenshots while doing all this for the final A5 help sheet
       
-      See all the slides and finalise 
-
       All tasks see again 
 
       Quickly see the whole book basically 
